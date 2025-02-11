@@ -1,4 +1,17 @@
-### Make sure you have Python > 3.7 and pip installed
+# Predictive Quality & Maintenance through Long-Short-Term Memory (Cold Spray Machine)
+
+## Description
+Conventionally, the quality of additive manufacturing processes—such as Cold Spray—is assessed using test coupons. However, these methods are often destructive, labor-intensive, and time-consuming. Additionally, machine health is typically evaluated based on criteria such as porosity and tensile strength, requiring extensive manual analysis. To address these challenges, we introduce a data-driven solution that leverages in-process parameters to assess process quality in real time. Since in-process parameters are time-series data, each current value inherently influences future readings. Long Short-Term Memory (LSTM), widely used in Natural Language Processing (NLP) for capturing contextual dependencies in sentences, is applied here to model the sequential dependencies in process data.
+
+We have developed a scalable machine learning pipeline for:
+
+- Training on in-process data
+- Evaluation (to be implemented)
+- Real-time inference for deployment
+
+This approach enables a non-destructive, automated, and efficient method for quality prediction and machine health monitoring in Cold Spray processes.
+
+## Quick Start
 
 If you are using virtual environment: 
 
