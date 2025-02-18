@@ -1,4 +1,4 @@
-# **Real-Time Data Collection and Anomaly Detection Using a Fine-Tuned Long Short-Term Memory (LSTM) Model**
+# **Real-Time Data Collection and Process Monitoring Using a Fine-Tuned Long Short-Term Memory (LSTM) Model**
 
 ## **Overview**
 This directory contains the **real-time data extraction and anomaly detection** Python scripts utilizing a **fine-tuned LSTM model** trained on **60-second feature data** extracted from the **Cold Spray Machine**.  
@@ -24,19 +24,14 @@ The model predicts whether the incoming data points indicate an **anomaly**, ena
 
 ---
 
-## **Setup**  
-1. **Install all required dependencies:**  
+## **Running Python Scripts**
+Run the python scrip in terminal to start data extraction (different type of nozzles are fine-tuned using different training dataset):
+   - for glass nozzle 
    ```bash
-   pip install -r requirements.txt
+   python glass_data_acquisition.py
    ```
 
-2. Run the python scrip in terminal to start data extraction (different type of nozzles are fine-tuned using different training dataset):
-    - for glass nozzle 
-    ```bash
-    python glass_data_acquisition.py
-    ```
-
-    - for polymer nozzle
-    ```bash
-    python polymer_data_acquisition.py
-    ```
+   - for polymer nozzle
+   ```bash
+   python polymer_data_acquisition.py
+   ```

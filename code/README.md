@@ -1,4 +1,4 @@
-# **Training Pipeline for Long Short-Term Memory (LSTM) Model Using Machine In-Process Parameters for Predictive Quality and Maintenance**
+# **Training Pipeline for Long Short-Term Memory (LSTM) Model Using Machine In-Process Parameters for Predictive Quality and Outcome**
 
 ## **Overview**
 In this directory, you will find the **training pipeline** for the **LSTM model**, trained using **brand-new nozzle data** and four key features extracted from the Cold Spray Machine:
@@ -18,13 +18,3 @@ The results successfully demonstrate that, even with different nozzle types, the
 - Python **3.9** or later  
 - CUDA-supported PyTorch (for GPU acceleration)  
 
----
-
-## **Setup**  
-1. Install all required Python libraries:  
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-2. Install the appropriate **CUDA-supported PyTorch** version:  
-   Follow the official guide here: [PyTorch Installation Guide](https://pytorch.org/get-started/locally/)
